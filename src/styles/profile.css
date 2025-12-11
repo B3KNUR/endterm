@@ -1,0 +1,22 @@
+.profile {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 16px;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.profile input,
+.profile button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 6px;
+  border: 1px solid #ddd;
+  background: #f3f4f6;
+}
+
+.avatar {
+  width: 120px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}

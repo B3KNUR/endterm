@@ -1,0 +1,36 @@
+.items {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 16px;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.items input,
+.items select,
+.items button {
+  margin: 6px 4px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  background: #f3f4f6;
+}
+
+.items img {
+  width: 100%;
+  max-width: 160px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.items > div > div {
+  display: inline-block;
+  width: 170px;
+  margin: 6px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 8px;
+}

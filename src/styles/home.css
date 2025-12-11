@@ -1,0 +1,18 @@
+.home {
+  padding: 32px 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.home-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1f2933;
+}
+
+.home-text {
+  font-size: 15px;
+  color: #4b5563;
+}

@@ -1,0 +1,45 @@
+.details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.details-title {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.details-card {
+  display: flex;
+  gap: 16px;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.details-image {
+  width: 180px;
+  border: 1px solid #ddd;
+}
+
+.details-info p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.details-info span {
+  font-weight: 600;
+}
+
+.details-back {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.details-loading,
+.details-error {
+  padding: 16px;
+  text-align: center;
+}
