@@ -36,10 +36,8 @@ export const useAuth = () => {
         await dispatch(loadProfile(user.uid));
 
   
-        // ✅ СНАЧАЛА просто загружаем favorites из Firestore
         await dispatch(loadFavorites(user.uid));
         
-        // ✅ merge ТОЛЬКО если у гостя что-то было
         const local = JSON.parse(
           localStorage.getItem("guest_favorites") || "[]"
         );
